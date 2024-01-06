@@ -16,7 +16,7 @@ import random
 first_names = ['Bobby', 'Sugar', 'Grog', 'Vlad', 'The', 'Alfred', 'Bop',
               'Bad News', 'Baby Oil', 'Chewy']
 last_names = ['Bodankins', 'Strongjaw', 'Wilafred', 'the Impaler',
-             'Supafly', 'Boomstick', 'Bojangles', 'Wellington', 'Bears'] 
+             'Supafly', 'Boomstick', 'Bojangles', 'Wellington', 'Bears', 'Tapioca', 'Tropicano', 'Smooth'] 
 
 def prompt_choice ():
     '''logic for handling user input'''
