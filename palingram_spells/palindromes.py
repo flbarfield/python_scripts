@@ -9,7 +9,7 @@ Print Palindrome List
 
 import load_dictionary
 
-word_list = load_dictionary
+dict_sample = load_dictionary.load('./2of12.txt')
 
 def return_palindromes(word_list):
     '''recieves a word list, and tests words within.
@@ -19,8 +19,8 @@ def return_palindromes(word_list):
     pali_list = []
 
     for word in word_list:
-        if word == word[::-1]:
+        if word == word[::-1] and len(word) > 1:
             pali_list.append(word)
     return pali_list
 
-print(return_palindromes(word_list))
+print(return_palindromes(dict_sample))
